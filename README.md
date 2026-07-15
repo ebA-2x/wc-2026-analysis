@@ -1,88 +1,70 @@
-# 2026 FIFA World Cup Prediction Tool
+# Getting Started with Create React App
 
-An interactive React application that analyzes football matchups and predicts win probabilities based on six key performance factors.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Overview
+## Available Scripts
 
-This tool allows users to select any two teams from the 2026 World Cup roster and instantly receive:
-- Win probability percentages for each team
-- Factor ratings across six dimensions (form, squad quality, experience, defense, attack, fitness)
-- Comparative visual analysis (probability bars and rating charts)
-- Tactical verdict and predicted winner
+In the project directory, you can run:
 
-## Project Genesis
+### `npm start`
 
-**Concept**: The idea originated from my interest in sports analytics and creating a tool that makes match predictions transparent and understandable. Rather than a black-box prediction, I wanted to break down matchups across meaningful factors.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**Development**: I collaborated with Claude AI as a development partner to build the tool. Claude assisted significantly in:
-- Architecting the React component structure
-- Designing the prediction algorithm and factor weighting system
-- Iterating on the UI/UX to ensure clarity and usability
-- Troubleshooting technical challenges and refining performance
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**My Contributions & Refinements**:
-- Directed the overall vision and feature set
-- Requested and guided multiple iterations on the UI design
-- Refined the factor rating system to be more intuitive
-- Made decisions on which prediction approach worked best (pivoted from live API integration to a self-contained model based on practical constraints)
-- Edited and tested the tool to ensure accuracy and user experience
+### `npm test`
 
-This was a collaborative process where I owned the direction and made key decisions about refinements, while leveraging Claude's technical expertise to execute efficiently.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## How It Works
+### `npm run build`
 
-1. **Team Selection**: Choose two teams from a dropdown of all 32 World Cup qualifiers
-2. **Prediction Calculation**: The tool rates each team 0–10 across six factors:
-   - **Recent Form**: Performance in the tournament so far
-   - **Squad Quality**: Overall player talent and depth
-   - **Big Match Experience**: Historical performance in high-stakes games
-   - **Defensive Solidity**: Defensive organization and reliability
-   - **Attacking Threat**: Offensive creativity and goal-scoring ability
-   - **Fitness & Injuries**: Player availability and physical condition
-3. **Results Display**: Win probability, factor comparison bars, and tactical analysis
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Technologies Used
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **React**: Component-based UI, state management (hooks)
-- **JavaScript (ES6+)**: Prediction algorithm and logic
-- **CSS**: Styling and responsive design
-- **Claude AI**: Collaborative development and technical guidance
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Key Features
+### `npm run eject`
 
-✓ Intuitive team selection interface  
-✓ Real-time prediction calculations  
-✓ Visual probability and factor comparison  
-✓ Transparent analytical breakdown  
-✓ Responsive design across devices  
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Getting Started
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Prerequisites
-- Node.js and npm installed
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### Usage
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-1. Select two teams from the dropdowns
-2. Click "Predict Winner"
-3. View the probability, factor ratings, and analysis
+## Learn More
 
-## What I Learned
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- How to iterate on product design based on constraints and feedback
-- Balancing feature ambition with practical implementation
-- Working effectively with AI as a collaborative development tool
-- The importance of transparent, user-friendly design in data-driven products
-- Problem-solving when initial approaches (live API integration) needed adjustment
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Future Enhancements
+### Code Splitting
 
-- Live integration with current tournament standings and injury reports
-- Historical matchup data and head-to-head comparisons
-- User ability to adjust factor weights manually
-- Export predictions to PDF or CSV
-- Multi-round tournament bracket simulation
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
----
+### Analyzing the Bundle Size
 
-**Note**: This project was developed collaboratively with Claude AI, demonstrating effective use of AI tools in the development process while maintaining ownership of the core vision, decision-making, and refinement.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
